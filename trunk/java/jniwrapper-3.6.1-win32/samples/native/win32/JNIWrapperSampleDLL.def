@@ -1,0 +1,17 @@
+LIBRARY	JNIWrapperSampleDLL
+
+EXPORTS sumStdCall
+		copySampleStructure
+		fillKeyValueStructure
+		copyUnionStructure
+		fillLinkedStructures
+		findMinimum
+		findValueByKey
+		removeDuplicates
+		removeDuplicatesFromString
+		findLongest  
+		convert
+		calculateSum
+		calculateSunFromBitStructure
+		createArray 
+		fillArray
