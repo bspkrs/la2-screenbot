@@ -16,442 +16,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/HookFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/lib/winpack-3.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FolderInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeServiceHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/License.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/LogPalette.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/evaluation/jniwrap.lic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/RemoteProxySettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WindowMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/CallbackWithFillExternalArraySample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/SystemTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ThreadEntryIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/BitFieldSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/MemoryAllocationAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/PointL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/EnvironmentVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/GdiObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MapiException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/lib/jniwrap-3.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/screenshot.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/CallWndProcEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/Kernel32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/GetApplicationWindowsSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/NonClientMetrics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/LinkedStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls/AbstractChooserField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/Wnd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/demo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ApplicationBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/UnionSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/LogFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/ColorRef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/bin/JNIWrapperSampleDLL.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/HooksData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Pen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/GetMsgHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/DriveListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/res" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ProcessMessageListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/PrintDlgStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/IEProxySettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/ProcessMemoryCounters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Gdi32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/LastErrorException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/res/cup.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/DdeServiceSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/DesktopItemOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/LastError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/HeapEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/demo/Readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/VersionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/LuidAndAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/IntPtr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/SystemColor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeServiceEventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/SysMsgProcHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/WinHttpSession.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/ChooseColorDialogSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/ui/RegistryTreeModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/SizeT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/Handle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/HResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/generator.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/DDBitmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/IconInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/TrayIcon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/mana.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/DdeClientSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/IEProxyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/Win32FindData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/target.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/os_win32small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/ui/RegistryKeyValuesTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/Bitmap16BitBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/clear.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/Mutex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryValueTransformer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/eventlog/EventLogMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/ServiceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/CurrentProcess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/stdafx.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Icon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/WndSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/Hook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/DllVersionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/DevNames.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/Beeper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/targetname.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/lib/jniwrap-generator-3.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/stdafx.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/DefaultDialogCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/BitmapFileHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/ComplexArraySample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/SysMsgProcEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WindowMessageListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/Runtime-win32.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/StartupInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/Win32DSI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MailContact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/BalloonListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/PrintParameters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/AccessToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Font.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/Samples.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/Timer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/TrackMouseEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeEventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/BrowserPaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ComponentLocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/BitmapBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/ProxySettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeClientEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/lib/antlr.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/SHChangeNotifyEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/ShellHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/JNIWrapperSampleDLL.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/JNIWrapper Tutorial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/HookEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/EnumServiceStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/Shell32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/Samples.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/PrimitiveArraySample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/ChooseColorDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/Readme-win32.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/MediaListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/MouseEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/WallpaperOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/RedirectStdStreamsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/FlashInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/Win9xWatcherStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/User32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/BitmapInfoHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/AccessOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/JavaTaskbarCaptionSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MapiMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/HeapList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/FileSystemWatcherSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls/ChooseIconField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/WinNT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeFunctions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/ui/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/DibSection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/label.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/status.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/CWndProcRetStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ThreadEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/SelectFolderDialogSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/Module.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleTry.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/BitmapStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Cursor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileSystemWatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/Readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/ProcessInformation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WindowMessageListenerEx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/WinHttpSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/TrayMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/license.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/SelectIconDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/PrintDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WndClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/LocalMemoryBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/ShellEventsSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/eventlog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls/ChooseColorField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ModuleEntryIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/RegistryKeySetValuesSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/MouseHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/ForegroungIdleHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/StringArraySample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/ProcessVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/HookEventObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/SecurityAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/WindowsSession.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/Process.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/ARGB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MapiMessageStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/WinFunctionCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/WinEventHook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/images/clear.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/BitmapBuilderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/ProcessSecurityOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/IdleTrackerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileSystemEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/eventlog/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/PaletteEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleTry.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/BitmapInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/DIBitmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/GradientRect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/IOCounters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/MediaEventsSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/License.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/SampleTrayApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/ForegroungIdleEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/PerformanceInformation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/SystemParametersInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/images/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ShellFolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/DevMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/TriVertex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/SystemMetrics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/PageRange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryKeyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/EventObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/Buzzer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ApplyChangesOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/WatcherStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/demo/WinPackDemo.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/ExternalStringPointerSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeClientEventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/CWndProcStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/GetMsgEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/ComDlg32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/BIStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/WndProcHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/Bitmap24BitBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/Size.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/DC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/MouseHookStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileSystemEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/BitmapBuilderDirectColorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/os_applesmall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/evaluation" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/CallbackSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/JNIWrapperSampleDLL.vcproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/BitmapBuilderIndexColorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ShellIcon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/EnumPrintersSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ProcessEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/CustomShapeWindowSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/FileSystemSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/CallbackWithArraySample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/res/Buzzer.BMP" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/RegistryKeyValues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/eventlog/EventLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/MemoryStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/MessageLoopListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/HeapListIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls/SelectFileField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileSystemException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/ChooseColorStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/important.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ProcessEntryIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/jniwrap.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/TokenUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/IconDir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/PaintStruct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/OpenSaveFileDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WindowProc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/SidAndAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/FileTypeAssociation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/RGBQuad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/Rect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/images/important.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/IconDirEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/HeapEntryIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/ShellEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/GlobalMemoryBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/KeyboardEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Msimg32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/ServiceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/WndProcRetHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/DefaultProxySettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/ReadMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/SHFileInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/controls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/ProxyInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleTry.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/ActiveDesktopItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/AutoProxyOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/LogBrush.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/EventLogSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/MessageLoopThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/SidIdentifierAuthority.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/PerformanceEntryIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/JNIWrapperSampleDLL.def" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/BitStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/ResizingPointerSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/PerformanceEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeClientHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/FunctionCallSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/registry/WinRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/Bitmap32BitBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/OFNStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/Sid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/bitmap/BitmapBuilderFactoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeServiceEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/exp.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/run.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/JNIWrapper Programmer's Guide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/JNIWrapperSampleDLL.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/Snapshot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/ActiveDirectoryAPISample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/CallWndProcRetEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/WinHttpException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/ScHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/jniwrap.lic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/JournalRecordHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/SystemInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/WindowDC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/KeyboardHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/Msg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/ShellEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs/DialogHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/DriveEventsSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/BlendFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/BalloonAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/WinEventHookSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/JNIT_win32.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/VariableSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/TokenPrivileges.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/BasicJNIWrapperSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/ProcessOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/WindowTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/OpenSaveFileDialogSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/KeyValueStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/TrayIconListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/events/ShellEventsListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/dde/DdeEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/IdleTracker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/LinkedStructureSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/MessageBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Programmer's_Guide/HTML/images/os_linuxsmall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/targetHealth.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/health.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/AbstractHookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/dialogs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/demo/winpackdemo.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MapiRecipDesc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/FunctionName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/ServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/SampleStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/NotifyIconData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/SystemVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/monitoring/ModuleEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Bitmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi/MapiFileDesc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/docs/JNIWrapper_Tutorial/HTML" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/AccessServicesRemoteComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/JournalRecordEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/HookSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/StructureSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/WinHttpLibrary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/service/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/native/win32/JNIWrapperSampleDLL.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/DesktopWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/process/Psapi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/shell/TrayIconMouseAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/Brush.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin/Codegen.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system/AdvApi32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/IdleTrackerSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/samples/res/winpack.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/winhttp/AuthCredentials.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/gdi/PolyFillMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/security/Luid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/ui/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/mapi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/samples/src/UnionStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/system" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/hook/data/EventMessageStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/FileInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniwrapper-3.6.1-win32/WinPack/src/com/jniwrapper/win32/io/WinNTWatcherStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/snslabs/la2/ui/Main.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/ui/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleTry.iws" afterPath="$PROJECT_DIR$/ConsoleTry.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/script/ScenarioFactory.java" />
+      <change type="MOVED" beforePath="C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2\Status.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/model/Status.java" />
+      <change type="MOVED" beforePath="C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2\Checker.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/engine/Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/CallBack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/snslabs/la2/script/FishingScenario.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/script/FishingScenario.java" />
+      <change type="MOVED" beforePath="C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2\AbstractLoggable.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/Log.java" />
+      <change type="DELETED" beforePath="C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2\ScreenShooter.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/snslabs/la2/script/Scenario.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/script/Scenario.java" />
+      <change type="MOVED" beforePath="C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2\Scripter.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/ScenarioExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/snslabs/la2/script/ManorScenario.java" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/script/ManorScenario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/script/AbstractLA2Scenario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/snslabs/la2/engine" />
     </list>
     <ignored path="ConsoleTry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -542,37 +121,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Scripter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Scripter.java">
+      <file leaf-file-name="ManorScenario.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/ManorScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.3721198">
+            <state line="14" column="32" selection-start="375" selection-end="375" vertical-scroll-proportion="0.21487603">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScenarioExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/ScenarioExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="259" selection-end="259" vertical-scroll-proportion="0.21693735">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/ui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="36" selection-start="1898" selection-end="1898" vertical-scroll-proportion="1.0232018">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractLA2Scenario.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/AbstractLA2Scenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="31" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.15466352">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scenario.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/Scenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.118329465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Status.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Status.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/model/Status.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="44" selection-start="848" selection-end="848" vertical-scroll-proportion="0.019252548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Recognizer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/recognizer/Recognizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="34" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.019252548">
+            <state line="18" column="27" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3549884">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Checker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Checker.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/engine/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.019585254">
+            <state line="71" column="38" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.07201889">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScenarioFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/ScenarioFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="47" selection-start="272" selection-end="272" vertical-scroll-proportion="0.19721578">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishingScenario.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/FishingScenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.039443154">
               <folding />
             </state>
           </provider>
@@ -632,6 +266,54 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ConsoleTry" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ConsoleTry" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ConsoleTry" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ConsoleTry" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java\src\ru" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\SVNGoogle\la2-screenbot\java\src\ru\snslabs\la2" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </subPane>
   </component>
   <component name="ProjectReloadState">
@@ -662,24 +344,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.snslabs.la2.script" />
       <recent name="com.itci.websphere.registry" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Scripter">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+  <component name="RunManager" selected="Application.ScenarioExecutor">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
@@ -696,13 +374,6 @@
       <method>
         <option name="Make" value="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
@@ -754,6 +425,18 @@
       <method>
         <option name="Make" value="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -816,7 +499,7 @@
       </method>
     </configuration>
     <configuration default="false" name="Checker" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" value="ru.snslabs.la2.Checker" />
+      <option name="MAIN_CLASS_NAME" value="ru.snslabs.la2.engine.Checker" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin" />
@@ -839,8 +522,8 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <configuration default="false" name="Scripter" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" value="ru.snslabs.la2.Scripter" />
+    <configuration default="false" name="ScenarioExecutor" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" value="ru.snslabs.la2.ScenarioExecutor" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/jniwrapper-3.6.1-win32/bin" />
@@ -851,11 +534,14 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ConsoleTry" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3065" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" value="true" />
-      </method>
     </configuration>
     <configuration default="false" name="ScreenShooter" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" value="ru.snslabs.la2.ScreenShooter" />
@@ -943,33 +629,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1236" height="1032" extended-state="0" />
+    <frame x="-4" y="-4" width="1236" height="1032" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="9" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10726351" order="3" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" order="1" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" order="1" />
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56126916" order="3" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53457737" order="3" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" order="8" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="11" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" order="12" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26570457" order="0" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="13" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
-      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25382933" order="2" />
-      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="14" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16465423" order="2" />
+      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="15" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="5" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
@@ -984,7 +670,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDEA Project files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -1006,6 +692,9 @@
     <MESSAGE value="targets health recognision initial implementation.&#10;Need to check HP percentage detection algorithm" />
     <MESSAGE value="Workable script to manor over Amber Basilisks" />
     <MESSAGE value="IDEA Project files added" />
+    <MESSAGE value="initial sources" />
+    <MESSAGE value="some workaroud UI" />
+    <MESSAGE value="Major refactoring" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1046,58 +735,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="431" column="23" selection-start="16244" selection-end="16244" vertical-scroll-proportion="13.09584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="24" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.6618445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/util/EnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="22" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.33273056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="4876" selection-end="4876" vertical-scroll-proportion="0.33273056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="24" selection-start="6743" selection-end="6743" vertical-scroll-proportion="-0.45639864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="665" selection-end="665" vertical-scroll-proportion="0.33295584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../jdk5/src.zip!/java/lang/Error.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="13" selection-start="963" selection-end="963" vertical-scroll-proportion="0.33295584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="44" selection-start="848" selection-end="848" vertical-scroll-proportion="0.019252548">
           <folding />
         </state>
       </provider>
@@ -1109,17 +749,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/LogHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.019585254">
+        <state line="36" column="53" selection-start="747" selection-end="747" vertical-scroll-proportion="0.8904992">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/CallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="72" selection-end="72" vertical-scroll-proportion="0.087030716">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Scripter.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/ui/Main.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.3721198">
+        <state line="2" column="25" selection-start="50" selection-end="50" vertical-scroll-proportion="0.04689655">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/ScenarioFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="47" selection-start="272" selection-end="272" vertical-scroll-proportion="0.19721578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/model/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3549884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.118329465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/FishingScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.039443154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/ManorScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="375" selection-end="375" vertical-scroll-proportion="0.21487603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/script/AbstractLA2Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.15466352">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/engine/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="38" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.07201889">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/ScenarioExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="259" selection-end="259" vertical-scroll-proportion="0.21693735">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/snslabs/la2/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="36" selection-start="1898" selection-end="1898" vertical-scroll-proportion="1.0232018">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

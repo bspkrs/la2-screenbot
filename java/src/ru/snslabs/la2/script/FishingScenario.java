@@ -1,8 +1,6 @@
 package ru.snslabs.la2.script;
 
-import ru.snslabs.la2.AbstractLoggable;
-
-public class FishingScenario extends AbstractLoggable implements Scenario {
+public class FishingScenario extends AbstractLA2Scenario {
     public FishingScenario() {
         dbg("Fishing scenario initialized");
     }
