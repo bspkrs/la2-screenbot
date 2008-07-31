@@ -1,4 +1,4 @@
-package ru.snslabs.la2;
+package ru.snslabs.la2.model;
 
 import java.math.BigDecimal;
 

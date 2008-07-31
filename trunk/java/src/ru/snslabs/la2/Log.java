@@ -1,6 +1,6 @@
 package ru.snslabs.la2;
 
-abstract public class AbstractLoggable {
+abstract public class Log {
     public void dbg(Object o){
         log(1,o);
     }

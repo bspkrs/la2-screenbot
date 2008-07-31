@@ -1,4 +1,4 @@
-package ru.snslabs.la2;
+package ru.snslabs.la2.engine;
 
 import com.jniwrapper.DefaultLibraryLoader;
 import com.jniwrapper.Function;
@@ -10,6 +10,7 @@ import com.jniwrapper.PrimitiveArray;
 import com.jniwrapper.UInt32;
 import com.jniwrapper.UInt8;
 import ru.snslabs.la2.recognizer.Recognizer;
+import ru.snslabs.la2.model.Status;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -50,6 +51,7 @@ public class Checker {
     private static final BufferedImageOp CONTRAST_OP = new LookupOp(new ByteLookupTable(0, CONTRAST_TABLE), null);
     private static final int SYMBOL_HEIGHT = 9;
 
+    /*
     public static void main(String[] args) throws Exception {
         final Checker checker = new Checker(0x03880134);
         for(int i = 0; i < 100; i ++){
@@ -61,6 +63,7 @@ public class Checker {
             Thread.sleep(1000);
         }
     }
+    */
 
     public Checker(int windowHandler) {
         this.windowHandler = windowHandler;
