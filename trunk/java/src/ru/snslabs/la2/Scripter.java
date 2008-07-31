@@ -6,7 +6,10 @@ import com.jniwrapper.Library;
 import com.jniwrapper.Pointer;
 import com.jniwrapper.UInt;
 import com.jniwrapper.UInt32;
+import ru.snslabs.la2.script.Scenario;
+import ru.snslabs.la2.ui.Main;
 
+import javax.swing.*;
 import java.io.BufferedReader;
 
 public class Scripter {
@@ -16,16 +19,46 @@ public class Scripter {
     private Function postMessage;
     private Pointer.Void hWnd;
     private BufferedReader bufferedReader;
+    private JFrame mainFrame;
+    private Main form;
+    private Scenario scenario;
 
     public static void main(String[] args) throws Exception {
         System.out.println("Usage:\n" +
                 "Scripter {hWnd} {scriptFilePath}");
-        final Scripter scripter = new Scripter();
+
+        JFrame mainFrame = new JFrame("LA2-ScreenBot");
+        Main form  = new Main();
+        final Scripter scripter = new Scripter(mainFrame, form);
+        form.setScripter(scripter);
+        
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainFrame.setSize(300,400);
+        mainFrame.setContentPane(form.getMainContentPane());
+        mainFrame.setVisible(true);
+        
 //        scripter.init(Long.parseLong(args[0]), args[1]);
-        scripter.init(0x03880134, null);
-        scripter.execute();
+
+//        scripter.init(0x03880134, null);
+//        scripter.execute();
     }
 
+    public Scripter(JFrame mainFrame, Main form) {
+        this.mainFrame = mainFrame;
+        this.form = form;
+    }
+
+
+    public void startScenario(){
+        final Scenario scenario = this.getScenario();
+        new Thread(
+                new Runnable(){
+                    public void run() {
+                        scenario.execute();
+                    }
+                }
+        ).start();
+    }
     private void execute() throws Exception {
         final Checker checker = new Checker((int) hWnd.getValue());
         for (int i=1;i<100;i++){
@@ -123,4 +156,11 @@ public class Scripter {
         }
     }
 
+    public Scenario getScenario() {
+        return scenario;
+    }
+
+    public void setScenario(Scenario scenario) {
+        this.scenario = scenario;
+    }
 }
