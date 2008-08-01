@@ -14,7 +14,7 @@ public class FishingScenario extends AbstractLA2Scenario {
 
             // fishing loop
             dbg("Start fishing...");
-            pressFKey(1);
+            startFishing();
             sleep(3000);
 
             // waiting for fish to take bait
@@ -47,42 +47,43 @@ public class FishingScenario extends AbstractLA2Scenario {
                 if (st.getFishHp() > oldFishHP) {
                     // fish HP increased - need to Reel
                     dbg("Use reeling");
-                    pressFKey(4); // use fish shot
-                    pressFKey(3); // use Reeling
+                    useFishShot();
+                    useReeling();
                 }
                 else {
                     // fish HP wasn't increased - need to Pump
                     dbg("Use pumping");
-                    pressFKey(4); // use fish shot
-                    pressFKey(2); // use Pumping
+                    useFishShot();
+                    usePumpung();
                 }
                 sleep(400); // wait a little to allow server respond to commands
                 st = getStatus(); // obtaining new status
                 
                 // check if we caught a sea monster
-                pressFKey(11);
+                targetNext();
                 st = getStatus();
                 if(st.getTargetHp().intValue() > 20){
                     // we caught a monster
-                    pressFKey(1); // stop fishing
-                    pressFKey(6); // take SLS
-                    pressFKey(7); // take shield
-                    pressFKey(8); // kill!!!!
+                    stopFishing();
+                    takeWeapons();
+                    attack();
                     st = getStatus();
                     while(st.getTargetHp() != null && st.getTargetHp().intValue() > 0){
                         sleep(2000);
-                        pressFKey(8); // kill!!!!
+                        attack();
                     }
-                    pressFKey(10); // pickup
+                    // better do not pick up, because this will change our position and fail future fishing
+                    /*
+                    pickUp();
                     sleep(300);
-                    pressFKey(10); // pickup
+                    pickUp();
                     sleep(300);
-                    pressFKey(10); // pickup
+                    pickUp();
                     sleep(300);
-                    
+                    */
+
                     //take fishing road
-                    pressFKey(5); // pickup
-                    pressFKey(9); // pickup
+                    takeFishingRodAndBait();
                     // continue fishing...
                 }
                 
@@ -98,6 +99,48 @@ public class FishingScenario extends AbstractLA2Scenario {
             
         }
         info("Fishing scenario ended.");
+    }
+
+    private void takeFishingRodAndBait() {
+        pressFKey(5); 
+        pressFKey(9); 
+    }
+
+    private void pickUp() {
+        pressFKey(10); // pickup
+    }
+
+    private void attack() {
+        pressFKey(8); // kill!!!!
+    }
+
+    private void takeWeapons() {
+        pressFKey(6); // take SLS
+        pressFKey(7); // take shield
+    }
+
+    private void targetNext() {
+        pressFKey(11);
+    }
+
+    private void usePumpung() {
+        pressFKey(2); // use Pumping
+    }
+
+    private void useReeling() {
+        pressFKey(3); // use Reeling
+    }
+
+    private void useFishShot() {
+        pressFKey(4); // use fish shot
+    }
+
+    private void startFishing() {
+        pressFKey(1);
+    }
+
+    private void stopFishing() {
+        pressFKey(1);
     }
 
     public String toString() {
