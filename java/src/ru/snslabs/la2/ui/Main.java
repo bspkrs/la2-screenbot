@@ -6,6 +6,7 @@ import ru.snslabs.la2.CallBack;
 import ru.snslabs.la2.script.FishingScenario;
 import ru.snslabs.la2.script.ManorScenario;
 import ru.snslabs.la2.script.Scenario;
+import ru.snslabs.la2.script.CraftPremiumFishOilScenario;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -31,6 +32,7 @@ public class Main extends LogHandler {
         // 1. Scenarios
         scenarioComboBoxModel = new DefaultComboBoxModel();
         scenarioComboBoxModel.addElement(new FishingScenario());
+        scenarioComboBoxModel.addElement(new CraftPremiumFishOilScenario());
         scenarioComboBoxModel.addElement(new ManorScenario());
 
 
