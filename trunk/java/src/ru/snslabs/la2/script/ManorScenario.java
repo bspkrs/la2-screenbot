@@ -48,6 +48,7 @@ public class ManorScenario extends AbstractLA2Scenario {
             }
             catch (Exception e) {
                 fatal("Cannot process step... :-(" + e.getMessage());
+                e.printStackTrace();
             }
             Thread.sleep(2000);
         }

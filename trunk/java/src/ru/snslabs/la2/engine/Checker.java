@@ -51,20 +51,6 @@ public class Checker {
     private static final BufferedImageOp CONTRAST_OP = new LookupOp(new ByteLookupTable(0, CONTRAST_TABLE), null);
     private static final int SYMBOL_HEIGHT = 9;
 
-    /*
-    public static void main(String[] args) throws Exception {
-        final Checker checker = new Checker(0x03880134);
-        for(int i = 0; i < 100; i ++){
-            try{
-            checker.checkStatus();
-            }catch(Exception e){
-                System.out.println("Cannot parse...");
-            }
-            Thread.sleep(1000);
-        }
-    }
-    */
-
     public Checker(int windowHandler) {
         this.windowHandler = windowHandler;
         initScreenShooter();
@@ -73,25 +59,69 @@ public class Checker {
     }
 
     public Status checkStatus() throws Exception {
-        
-        /* AUTOMATIC MODE */
-        shootScreen();
-        final File screenShot = new File("screenshot.bmp");
-        
-        /* MANUAL MODE */
+        final Status status = new Status();
+        try {
+            /* AUTOMATIC MODE */
+            shootScreen();
+            final File screenShot = new File("screenshot.bmp");
+
+            /* MANUAL MODE */
 //        final File screenShot = new File("C:\\Serge\\games\\Lineage II\\system\\Shot00003.bmp");
-        
-        
-        final BufferedImage img = ImageIO.read(screenShot);
+
+
+            final BufferedImage img = ImageIO.read(screenShot);
 //        screenShot.delete();
 
-        final Status status = new Status();
 
-        populateHeroStatus(img, status);
-        populateTargetInfo(img, status);
+            populateHeroStatus(img, status);
+            populateTargetInfo(img, status);
+            populateFishingInfo(img, status);
 
-        System.out.println("Current status: \n" + status);
+            System.out.println("Current status: \n" + status);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
         return status;
+
+    }
+
+    private void populateFishingInfo(BufferedImage img, Status status) throws IOException {
+        /**
+         * preparing fishing info
+         */
+        BufferedImage subImage = img.getSubimage(112, 99, 61, 9);
+        INVERT_OP.filter(subImage, subImage);
+        CONTRAST_OP.filter(subImage, subImage);
+        ImageIO.write(subImage, "BMP", new File("fishing_mode.bmp"));
+//        recognizer.createRecognisionMaps(subImage, "РbIбалка");
+        String fishingMode = recognizer.recognize(subImage);
+        System.out.println("Fishing mode is : " + fishingMode);
+        status.setFishing("РbIбалка".equalsIgnoreCase(fishingMode));
+
+        /**
+         * detecting fish HP
+         */
+        subImage = img.getSubimage(26, 348, 230, 1);
+//        INVERT_OP.filter(subImage, subImage);
+//        CONTRAST_OP.filter(subImage, subImage);
+        int fishHealth = 0;
+        ImageIO.write(subImage, "BMP", new File("fish_HP.bmp"));
+        for(int i=0; i < subImage.getWidth(); i++){
+            final int rgb = subImage.getRGB(i, 0);
+            if((rgb & 0xFF) > 0x70 && (rgb & 0xFF00) > 0x7000 ){
+                if((rgb & 0xFF0000) > 0x700000){
+                    // white colored progress bar - means it is glowing and no fish health can be detected
+                    fishHealth = -1;
+                    break;
+                }
+                fishHealth++;
+            }
+        }
+        
+        status.setFishHp(fishHealth);
+        
+    
     }
 
     private void populateTargetInfo(BufferedImage img, Status status) throws IOException {
@@ -125,11 +155,11 @@ public class Checker {
                     if (subImage.getRGB(3, 28) != 0xFFFFFFFF) {
                         lastHealthPixelX = x;
                     }
-                    else{
+                    else {
                         break;
                     }
                 }
-                status.setTargetHp(new BigDecimal(100*((double) (subImage.getWidth() - 3)) / lastHealthPixelX).setScale(2, BigDecimal.ROUND_HALF_DOWN));
+                status.setTargetHp(new BigDecimal(100 * ((double) (subImage.getWidth() - 3)) / lastHealthPixelX).setScale(2, BigDecimal.ROUND_HALF_DOWN));
             }
             else {
                 status.setTargetAlive(false);

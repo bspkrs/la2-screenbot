@@ -17,14 +17,18 @@ public abstract class AbstractLA2Scenario extends Log implements Scenario {
     private static final UInt WM_KEY_DOWN = new UInt(0x100);
     private static final UInt WM_KEY_UP = new UInt(0x101);
     private static final UInt WM_CHAR = new UInt(0x102);
+    
+    public static final UInt WM_F1 = new UInt(0x70);
+    
 
-    private int hWnd;
+//    private int hWnd;
     private Checker checker;
     private Function postMessage;
     private Pointer.Void vpHWND;
 
     public void setWindowHandle(int hWnd) {
-        this.hWnd = hWnd;
+//        this.hWnd = hWnd;
+        dbg(toString() + " scenario initialized window handle with " + hWnd);
         checker = new Checker(hWnd);
         vpHWND = new Pointer.Void(hWnd);
         initJNIWrapper();
@@ -45,7 +49,21 @@ public abstract class AbstractLA2Scenario extends Log implements Scenario {
             sendKey(c);
         }
     }
-
+    
+    protected void pressFKey(int fKeyNumber){
+        fKeyNumber = fKeyNumber & 0x0000000F;
+        if(fKeyNumber >12 || fKeyNumber < 1 ){
+            error("Incorrect F key index - "+fKeyNumber);
+        }
+        else if (fKeyNumber<=10){
+            postMessage.invoke(null, vpHWND, WM_KEY_DOWN, new UInt32(0x70+(fKeyNumber-1)), new UInt32(1 | (0xC03b0000 + 0x00010000*(fKeyNumber-1))));
+            postMessage.invoke(null, vpHWND, WM_KEY_UP, new UInt32(0x70+(fKeyNumber-1)), new UInt32(1 | (0xC03b0000 + 0x00010000*(fKeyNumber-1))));
+        }
+        else{
+            postMessage.invoke(null, vpHWND, WM_KEY_DOWN, new UInt32(0x70+(fKeyNumber-1)), new UInt32(1 | (0xC0570000 + 0x00010000*(fKeyNumber-11))));
+            postMessage.invoke(null, vpHWND, WM_KEY_UP, new UInt32(0x70+(fKeyNumber-1)), new UInt32(1 | (0xC0570000 + 0x00010000*(fKeyNumber-11))));
+        }
+    }
     private void sendKey(char key) {
         System.out.print(key);
         long keyCode = key & 0xFF;

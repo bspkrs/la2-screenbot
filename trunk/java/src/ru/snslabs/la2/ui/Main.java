@@ -30,8 +30,8 @@ public class Main extends LogHandler {
         // initialize data
         // 1. Scenarios
         scenarioComboBoxModel = new DefaultComboBoxModel();
-        scenarioComboBoxModel.addElement(new ManorScenario());
         scenarioComboBoxModel.addElement(new FishingScenario());
+        scenarioComboBoxModel.addElement(new ManorScenario());
 
 
         cbScenario.setModel(scenarioComboBoxModel);
@@ -41,7 +41,9 @@ public class Main extends LogHandler {
             public void actionPerformed(ActionEvent e) {
                 stopButton.setEnabled(true);
                 startButton.setEnabled(false);
-                scenarioExecutor.setScenario((Scenario) cbScenario.getSelectedItem());
+                final Scenario scenario = (Scenario) cbScenario.getSelectedItem();
+                scenario.setWindowHandle(Integer.valueOf(String.valueOf(cbWindowHandle.getSelectedItem())));
+                scenarioExecutor.setScenario(scenario);
                 scenarioExecutor.startScenario(new CallBack() {
                     public void execute() {
                         stopButton.setEnabled(false);

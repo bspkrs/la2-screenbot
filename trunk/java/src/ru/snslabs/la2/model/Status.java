@@ -15,6 +15,8 @@ public class Status {
     private String targetName;
     private boolean targetAlive;
     private BigDecimal targetHp;
+    private boolean isFishing;
+    private int fishHp;
 
     public void setHp(int hp) {
         this.hp = hp;
@@ -34,7 +36,8 @@ public class Status {
                 "EX: " + expPercent + "% " +
                 "TARGET: " + targetName+" "+
                 "ALIVE: " + targetAlive+" "+
-                "TARGET HP%: "+ targetHp+"% ";
+                "TARGET HP%: "+ targetHp+"%"+
+                (isFishing?("\nFISHING: fish HP: " + fishHp):"");
         
     }
 
@@ -88,5 +91,21 @@ public class Status {
 
     public void setTargetHp(BigDecimal targetHp) {
         this.targetHp = targetHp;
+    }
+
+    public boolean isFishing() {
+        return isFishing;
+    }
+
+    public void setFishing(boolean fishing) {
+        isFishing = fishing;
+    }
+
+    public int getFishHp() {
+        return fishHp;
+    }
+
+    public void setFishHp(int fishHp) {
+        this.fishHp = fishHp;
     }
 }
