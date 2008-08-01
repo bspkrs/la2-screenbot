@@ -36,65 +36,66 @@ public class FishingScenario extends AbstractLA2Scenario {
             // now we need to decide - Reel (F3), or Pump (F2)
             while (st.isFishing()) { // loop while fish is not caught and not gone - fishing is active
                 oldFishHP = st.getFishHp();
-                sleep(2000); // wait 3 secs
+                sleep(1800); // wait 2 secs, this time should be enough to make skills ready for use
                 st = getStatus();
                 if (st.getFishHp() == -1) {
                     // canoot determine fish HP because of glowing HP bar
                     // retry after 0.5 sec will be good
-                    sleep(500);
+                    sleep(400);
                     st = getStatus();
                 }
                 if (st.getFishHp() > oldFishHP) {
                     // fish HP increased - need to Reel
-                    dbg("Use reeling");
+//                    dbg("Use reeling");
                     useFishShot();
                     useReeling();
                 }
                 else {
                     // fish HP wasn't increased - need to Pump
-                    dbg("Use pumping");
+//                    dbg("Use pumping");
                     useFishShot();
                     usePumpung();
                 }
-                sleep(400); // wait a little to allow server respond to commands
+                sleep(300); // wait a little to allow server respond to commands
                 st = getStatus(); // obtaining new status
                 
-                // check if we caught a sea monster
-                targetNext();
-                st = getStatus();
-                if(st.getTargetHp().intValue() > 20){
-                    // we caught a monster
-                    stopFishing();
-                    takeWeapons();
-                    attack();
-                    st = getStatus();
-                    while(st.getTargetHp() != null && st.getTargetHp().intValue() > 0){
-                        sleep(2000);
-                        attack();
-                    }
-                    // better do not pick up, because this will change our position and fail future fishing
-                    /*
-                    pickUp();
-                    sleep(300);
-                    pickUp();
-                    sleep(300);
-                    pickUp();
-                    sleep(300);
-                    */
-
-                    //take fishing road
-                    takeFishingRodAndBait();
-                    // continue fishing...
-                }
                 
                 if(st.isFishing()){
-                    dbg("Fish health : " + st.getFishHp());
+//                    dbg("Fish health : " + st.getFishHp());
                 }
                 else{
                     dbg("Fishing ended");
                 }
 
             }
+            // check if we caught a sea monster
+            targetNext();
+            st = getStatus();
+            if(st.getTargetHp().intValue() > 20 && st.getHp() < st.getMaxHp()){
+                // we caught a monster
+//                stopFishing();
+                takeWeapons();
+                attack();
+                st = getStatus();
+                while(st.getTargetHp() != null && st.getTargetHp().intValue() > 0){
+                    sleep(2000);
+                    attack();
+                }
+                // better do not pick up, because this will change our position and fail future fishing
+                /*
+                pickUp();
+                sleep(300);
+                pickUp();
+                sleep(300);
+                pickUp();
+                sleep(300);
+                */
+
+                //take fishing road
+                takeFishingRodAndBait();
+                // continue fishing...
+            }
+            
             sleep(1000);
             
         }

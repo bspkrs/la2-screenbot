@@ -14,9 +14,11 @@ import ru.snslabs.la2.model.Status;
  * Support scenario with environment access - screen shots, window message posting, image processing etc.
  */
 public abstract class AbstractLA2Scenario extends Log implements Scenario {
-    private static final UInt WM_KEY_DOWN = new UInt(0x100);
-    private static final UInt WM_KEY_UP = new UInt(0x101);
-    private static final UInt WM_CHAR = new UInt(0x102);
+    private static final UInt WM_KEY_DOWN = new UInt(0x0100);
+    private static final UInt WM_KEY_UP = new UInt(0x0101);
+    private static final UInt WM_CHAR = new UInt(0x0102);
+    private static final UInt WM_LBUTTONDOWN = new UInt(0x0201);
+    private static final UInt WM_LBUTTONUP = new UInt(0x0202);
     
     public static final UInt WM_F1 = new UInt(0x70);
     
@@ -78,6 +80,11 @@ public abstract class AbstractLA2Scenario extends Log implements Scenario {
         sleep(50);
     }
 
+    protected void leftMouseButtonClick(int xPos, int yPos){
+        postMessage.invoke(null, vpHWND, WM_LBUTTONDOWN,  new UInt32(1), new UInt32( xPos | yPos<<16 ) );
+        postMessage.invoke(null, vpHWND, WM_LBUTTONUP,  new UInt32(0), new UInt32( xPos | yPos<<16 ) );
+    }
+    
     protected void sleep(int i) {
         try {
             Thread.sleep((long)i);

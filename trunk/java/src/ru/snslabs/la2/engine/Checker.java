@@ -9,8 +9,9 @@ import com.jniwrapper.Pointer;
 import com.jniwrapper.PrimitiveArray;
 import com.jniwrapper.UInt32;
 import com.jniwrapper.UInt8;
-import ru.snslabs.la2.recognizer.Recognizer;
+import ru.snslabs.la2.Config;
 import ru.snslabs.la2.model.Status;
+import ru.snslabs.la2.recognizer.Recognizer;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -90,7 +91,11 @@ public class Checker {
         /**
          * preparing fishing info
          */
-        BufferedImage subImage = img.getSubimage(112, 99, 61, 9);
+        BufferedImage subImage = img.getSubimage(
+                Config.getFishingStatusWindowLeft(), 
+                Config.getFishingStatusWindowTop(), 
+                Config.getFishingStatusWindowWidth(), 
+                Config.getFishingStatusWindowHeight());
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);
         ImageIO.write(subImage, "BMP", new File("fishing_mode.bmp"));
@@ -102,7 +107,11 @@ public class Checker {
         /**
          * detecting fish HP
          */
-        subImage = img.getSubimage(26, 348, 230, 1);
+        subImage = img.getSubimage(
+                Config.getFishHealthWindowLeft(), 
+                Config.getFishHealthWindowTop(), 
+                Config.getFishHealthWindowWidth(), 
+                Config.getFishHealthWindowHeight());
 //        INVERT_OP.filter(subImage, subImage);
 //        CONTRAST_OP.filter(subImage, subImage);
         int fishHealth = 0;
@@ -111,7 +120,7 @@ public class Checker {
             final int rgb = subImage.getRGB(i, 0);
             if((rgb & 0xFF) > 0x70 && (rgb & 0xFF00) > 0x7000 ){
                 if((rgb & 0xFF0000) > 0x700000){
-                    // white colored progress bar - means it is glowing and no fish health can be detected
+                    // white colored progress bar - means it is glowing and fish health cannot be detected
                     fishHealth = -1;
                     break;
                 }
@@ -128,7 +137,12 @@ public class Checker {
         /**
          * preparing target info
          */
-        BufferedImage subImage = img.getSubimage(660, 8, 140, 35);
+        BufferedImage subImage = img.getSubimage(
+                Config.getTargetWindowLeft(), 
+                Config.getTargetWindowTop(), 
+                Config.getTargetWindowWidth(), 
+                Config.getTargetWindowHeight());
+                
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);
         ImageIO.write(subImage, "BMP", new File("target.bmp"));
@@ -144,7 +158,11 @@ public class Checker {
 
         {
             // checking target's health
-            subImage = img.getSubimage(660, 8, 140, 35);
+            subImage = img.getSubimage(
+                    Config.getTargetWindowLeft(), 
+                    Config.getTargetWindowTop(), 
+                    Config.getTargetWindowWidth(), 
+                    Config.getTargetWindowHeight());
 //            INVERT_OP.filter(subImage, subImage);
 //            BufferedImage targetNameImage = subImage.getSubimage(0, 7, subImage.getWidth(), SYMBOL_HEIGHT);
 //            ImageIO.write(targetNameImage,"BMP",new File("targetHealth.bmp"));
@@ -177,7 +195,11 @@ public class Checker {
         /**
          * Preparing HP
          */
-        final BufferedImage subImage = img.getSubimage(0, 0, 180, 80);
+        final BufferedImage subImage = img.getSubimage(
+                Config.getPersonWindowLeft(), 
+                Config.getPersonWindowTop(), 
+                Config.getPersonWindowWidth(), 
+                Config.getPersonWindowHeight());
 
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);
