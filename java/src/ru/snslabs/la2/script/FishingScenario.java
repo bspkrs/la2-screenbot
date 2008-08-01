@@ -1,14 +1,75 @@
 package ru.snslabs.la2.script;
 
+import ru.snslabs.la2.model.Status;
+
 public class FishingScenario extends AbstractLA2Scenario {
     public FishingScenario() {
         dbg("Fishing scenario initialized");
     }
 
-    public void execute() {
-        dbg("Fishing started...");
+    public void execute() throws Exception {
+        dbg("Fishing scenario started...");
+        while (!Thread.currentThread().isInterrupted()) {
+            Status st = getStatus();
 
-        dbg("Fishing ended.");
+            // fishing loop
+            dbg("Start fishing...");
+            pressFKey(1);
+            sleep(3000);
+
+            // waiting for fish to take bait
+            // wait no more then 30 sec
+            int i = 30;
+            st = getStatus();
+            // condition to stop waiting are: fishing stopped or 30 seconds pass or fish appears
+            while (st.isFishing() && i-- > 0 && st.getFishHp() < 100) {
+                sleep(1000);
+                st = getStatus();
+            }
+            // happens one of two - fish took bait, then i > 0, or fish didn't take bait and i = 0
+            if (i == 0) {
+                continue;
+            }
+            // so fish took the bait...
+            int oldFishHP;
+
+            // now we need to decide - Reel (F3), or Pump (F2)
+            while (st.isFishing()) { // loop while fish is not caught and not gone - fishing is active
+                oldFishHP = st.getFishHp();
+                sleep(2000); // wait 3 secs
+                st = getStatus();
+                if (st.getFishHp() == -1) {
+                    // canoot determine fish HP because of glowing HP bar
+                    // retry after 0.5 sec will be good
+                    sleep(500);
+                    st = getStatus();
+                }
+                if (st.getFishHp() > oldFishHP) {
+                    // fish HP increased - need to Reel
+                    dbg("Use reeling");
+                    pressFKey(4); // use fish shot
+                    pressFKey(3); // use Reeling
+                }
+                else {
+                    // fish HP wasn't increased - need to Pump
+                    dbg("Use pumping");
+                    pressFKey(4); // use fish shot
+                    pressFKey(2); // use Pumping
+                }
+                sleep(400); // wait a little to allow server respond to commands
+                st = getStatus(); // obtaining new status
+                if(st.isFishing()){
+                    dbg("Fish health : " + st.getFishHp());
+                }
+                else{
+                    dbg("Fishing ended");
+                }
+
+            }
+            sleep(1000);
+            
+        }
+        info("Fishing scenario ended.");
     }
 
     public String toString() {
