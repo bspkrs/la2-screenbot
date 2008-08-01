@@ -58,6 +58,34 @@ public class FishingScenario extends AbstractLA2Scenario {
                 }
                 sleep(400); // wait a little to allow server respond to commands
                 st = getStatus(); // obtaining new status
+                
+                // check if we caught a sea monster
+                pressFKey(11);
+                st = getStatus();
+                if(st.getTargetHp().intValue() > 20){
+                    // we caught a monster
+                    pressFKey(1); // stop fishing
+                    pressFKey(6); // take SLS
+                    pressFKey(7); // take shield
+                    pressFKey(8); // kill!!!!
+                    st = getStatus();
+                    while(st.getTargetHp() != null && st.getTargetHp().intValue() > 0){
+                        sleep(2000);
+                        pressFKey(8); // kill!!!!
+                    }
+                    pressFKey(10); // pickup
+                    sleep(300);
+                    pressFKey(10); // pickup
+                    sleep(300);
+                    pressFKey(10); // pickup
+                    sleep(300);
+                    
+                    //take fishing road
+                    pressFKey(5); // pickup
+                    pressFKey(9); // pickup
+                    // continue fishing...
+                }
+                
                 if(st.isFishing()){
                     dbg("Fish health : " + st.getFishHp());
                 }
