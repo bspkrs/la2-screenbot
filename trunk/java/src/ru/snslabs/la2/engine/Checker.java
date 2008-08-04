@@ -9,7 +9,10 @@ import com.jniwrapper.Pointer;
 import com.jniwrapper.PrimitiveArray;
 import com.jniwrapper.UInt32;
 import com.jniwrapper.UInt8;
-import ru.snslabs.la2.Config;
+import ru.snslabs.la2.integration.WindowsInfo;
+import static ru.snslabs.la2.integration.WindowsInfo.FishViewportWnd;
+import static ru.snslabs.la2.integration.WindowsInfo.StatusWnd;
+import static ru.snslabs.la2.integration.WindowsInfo.TargetStatusWnd;
 import ru.snslabs.la2.model.Status;
 import ru.snslabs.la2.recognizer.Recognizer;
 
@@ -92,10 +95,10 @@ public class Checker {
          * preparing fishing info
          */
         BufferedImage subImage = img.getSubimage(
-                Config.getFishingStatusWindowLeft(), 
-                Config.getFishingStatusWindowTop(), 
-                Config.getFishingStatusWindowWidth(), 
-                Config.getFishingStatusWindowHeight());
+                WindowsInfo.getPosX(FishViewportWnd) + 104, 
+                WindowsInfo.getPosY(FishViewportWnd) + 9, 
+                61, 
+                9);
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);
         ImageIO.write(subImage, "BMP", new File("fishing_mode.bmp"));
@@ -108,10 +111,10 @@ public class Checker {
          * detecting fish HP
          */
         subImage = img.getSubimage(
-                Config.getFishHealthWindowLeft(), 
-                Config.getFishHealthWindowTop(), 
-                Config.getFishHealthWindowWidth(), 
-                Config.getFishHealthWindowHeight());
+                WindowsInfo.getPosX(FishViewportWnd) + 18, 
+                WindowsInfo.getPosY(FishViewportWnd) + 258, 
+                230, 
+                1);
 //        INVERT_OP.filter(subImage, subImage);
 //        CONTRAST_OP.filter(subImage, subImage);
         int fishHealth = 0;
@@ -138,10 +141,10 @@ public class Checker {
          * preparing target info
          */
         BufferedImage subImage = img.getSubimage(
-                Config.getTargetWindowLeft(), 
-                Config.getTargetWindowTop(), 
-                Config.getTargetWindowWidth(), 
-                Config.getTargetWindowHeight());
+                WindowsInfo.getPosX(TargetStatusWnd)+17, 
+                WindowsInfo.getPosX(TargetStatusWnd)+2, 
+                140, 
+                35);
                 
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);
@@ -159,10 +162,10 @@ public class Checker {
         {
             // checking target's health
             subImage = img.getSubimage(
-                    Config.getTargetWindowLeft(), 
-                    Config.getTargetWindowTop(), 
-                    Config.getTargetWindowWidth(), 
-                    Config.getTargetWindowHeight());
+                    WindowsInfo.getPosX(TargetStatusWnd)+17, 
+                    WindowsInfo.getPosX(TargetStatusWnd)+2, 
+                    140, 
+                    35);
 //            INVERT_OP.filter(subImage, subImage);
 //            BufferedImage targetNameImage = subImage.getSubimage(0, 7, subImage.getWidth(), SYMBOL_HEIGHT);
 //            ImageIO.write(targetNameImage,"BMP",new File("targetHealth.bmp"));
@@ -196,10 +199,10 @@ public class Checker {
          * Preparing HP
          */
         final BufferedImage subImage = img.getSubimage(
-                Config.getPersonWindowLeft(), 
-                Config.getPersonWindowTop(), 
-                Config.getPersonWindowWidth(), 
-                Config.getPersonWindowHeight());
+                WindowsInfo.getPosX(StatusWnd), 
+                WindowsInfo.getPosX(StatusWnd), 
+                180, 
+                80);
 
         INVERT_OP.filter(subImage, subImage);
         CONTRAST_OP.filter(subImage, subImage);

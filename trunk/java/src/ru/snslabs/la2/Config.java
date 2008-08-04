@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+@Deprecated // "May be use when it will keep other settings"
 public class Config {
     private static int targetWindowTop;
     private static int targetWindowLeft;
